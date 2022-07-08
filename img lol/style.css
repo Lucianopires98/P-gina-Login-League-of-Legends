@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+   display: flex;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  min-height: 100vh;
+  padding: 35px;
+}
+
+.riot-logo {
+    width: 130px;
+    margin-bottom: 80px;
+}
+
+
+.titulo-login {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.login-label {
+ width: 100%;
+ display: block;
+ margin-bottom: 20px;
+}
+
+.input {
+    width: 100%;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    padding: 25px 10px 10px 10px;
+    font-weight: bold;
+}
+
+.login-label span {
+    position: absolute;
+    font-weight: lighter;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    color: gray;
+    cursor: text;
+    padding: 18px;
+}
+
+.icone-login {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.icone-login img {
+    width: 20px;
+}
+
+.btn-icone1 {
+ width: 33.33%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 30px;
+ border-radius: 5px;
+ cursor: pointer;
+ border: none;
+ background-color: blue;
+}
+
+.btn-icone2 {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #8A0000;
+}
+   
+.btn-icone3 {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #000;
+}
+
+   .label-checkbox {
+    width: 100%;
+    margin-top:15px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+
+.login-btn {
+ width: 60px;
+ height: 60px;
+ background-color: #FF002E;
+ border-radius: 5px;
+ border: none;
+ cursor: pointer;
+ margin-bottom: 60px;
+}
+
+.login-btn:disabled {
+ background-color: #FF002E36;
+ cursor: auto;
+}
+
+
+.login-link {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+
+.wallpaper {
+    width: 100%;
+    background-image: url('./league\ of\ legends\ fundo.png');
+    background-size: cover;
+    background-position: center;
+}
