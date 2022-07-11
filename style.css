@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+}
+
 main {
    display: flex;
 }
@@ -14,7 +18,7 @@ main {
   align-items: center;
   width: 100%;
   max-width: 500px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding: 35px;
 }
 
